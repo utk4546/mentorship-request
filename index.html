@@ -11,93 +11,188 @@
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <div class="card">
+    <div class="card">
 
-            <h1>2-Hour Technical Mentorship Session</h1>
+        <div class="badge">
+            TECHNICAL MENTORSHIP
+        </div>
 
-            <p class="intro">
-                I’m looking forward to learning from your experience through
-                a focused 2-hour technical mentorship session.
-            </p>
+        <h1>2-Hour Technical Mentorship Session</h1>
 
-            <h2>Discussion Topics</h2>
+        <p class="intro">
+            I’m looking forward to learning from your experience through
+            a focused 2-hour technical mentorship session.
+        </p>
 
-            <ul>
-                <li>Development to production workflow</li>
-                <li>Building efficient real-world products</li>
-                <li>Choosing the right technology stack</li>
-                <li>System architecture and design decisions</li>
-                <li>Writing maintainable and scalable code</li>
-                <li>Industry-level development practices</li>
-                <li>General technical guidance and career insights</li>
-            </ul>
 
-            <div class="session-info">
-                <h2>Session Format</h2>
+        <h2>What I'd Like to Discuss</h2>
 
-                <p><strong>Duration:</strong> 2 Hours</p>
-                <p><strong>Platform:</strong> Zoom</p>
-                <p><strong>Format:</strong> Interactive discussion & Q&A</p>
+        <div class="topics">
+
+            <div class="topic">
+                <span>🚀</span>
+                <div>
+                    <h3>Development to Production</h3>
+                    <p>
+                        Understanding how real-world applications move
+                        from development to production.
+                    </p>
+                </div>
             </div>
 
-            <h2>Choose a Convenient Time</h2>
+            <div class="topic">
+                <span>🏗️</span>
+                <div>
+                    <h3>Product Development</h3>
+                    <p>
+                        How to build efficient and practical products
+                        that solve real problems.
+                    </p>
+                </div>
+            </div>
 
-            <form id="mentorForm">
+            <div class="topic">
+                <span>⚙️</span>
+                <div>
+                    <h3>Technology & Architecture</h3>
+                    <p>
+                        Choosing the right tech stack and making
+                        architecture decisions.
+                    </p>
+                </div>
+            </div>
 
-                <label for="name">Your Name</label>
-                <input
-                    type="text"
-                    id="name"
-                    placeholder="Enter your name"
-                    required
-                >
+            <div class="topic">
+                <span>💻</span>
+                <div>
+                    <h3>Maintainable Code</h3>
+                    <p>
+                        Writing clean, maintainable and scalable code
+                        for real-world projects.
+                    </p>
+                </div>
+            </div>
 
-                <label for="date">Preferred Date</label>
-                <input
-                    type="date"
-                    id="date"
-                    required
-                >
+            <div class="topic">
+                <span>🏢</span>
+                <div>
+                    <h3>Industry Workflow</h3>
+                    <p>
+                        Understanding how professional development
+                        teams plan, build, test and deploy products.
+                    </p>
+                </div>
+            </div>
 
-                <label for="time">Preferred Time</label>
-                <input
-                    type="time"
-                    id="time"
-                    required
-                >
-
-                <label for="message">
-                    Anything you'd like to discuss?
-                </label>
-
-                <textarea
-                    id="message"
-                    placeholder="Optional message..."
-                    rows="4"
-                ></textarea>
-
-                <button type="submit">
-                    Send Availability
-                </button>
-
-            </form>
-
-            <div id="successMessage" class="success-message">
-                Thank you! Your availability has been received.
-                I’ll coordinate the Zoom meeting accordingly.
+            <div class="topic">
+                <span>💡</span>
+                <div>
+                    <h3>Technical Guidance</h3>
+                    <p>
+                        General technical guidance, learning direction
+                        and industry insights.
+                    </p>
+                </div>
             </div>
 
         </div>
 
-        <footer>
-            Technical Mentorship • Built with HTML, CSS & JavaScript
-        </footer>
+
+        <h2>Session Details</h2>
+
+        <div class="session-info">
+
+            <div>
+                <strong>Duration</strong>
+                <span>2 Hours</span>
+            </div>
+
+            <div>
+                <strong>Platform</strong>
+                <span>Zoom</span>
+            </div>
+
+            <div>
+                <strong>Format</strong>
+                <span>Discussion & Q&A</span>
+            </div>
+
+        </div>
+
+
+        <h2>Choose a Convenient Time</h2>
+
+        <p class="small-text">
+            Please share a convenient date and time. I’ll coordinate
+            the Zoom meeting accordingly.
+        </p>
+
+
+        <form id="mentorForm">
+
+            <label for="name">Your Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+            >
+
+
+            <label for="date">Preferred Date</label>
+
+            <input
+                type="date"
+                id="date"
+                required
+            >
+
+
+            <label for="time">Preferred Time</label>
+
+            <input
+                type="time"
+                id="time"
+                required
+            >
+
+
+            <label for="message">
+                Anything you'd like to discuss?
+            </label>
+
+            <textarea
+                id="message"
+                placeholder="Optional message..."
+            ></textarea>
+
+
+            <button type="submit">
+                Send Availability
+            </button>
+
+        </form>
+
+
+        <div id="successMessage" class="success">
+            Thank you! Your availability has been received.
+            I’ll coordinate the Zoom meeting accordingly.
+        </div>
 
     </div>
 
-    <script src="script.js"></script>
+
+    <div class="footer">
+        Technical Mentorship • Built with HTML, CSS & JavaScript
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
